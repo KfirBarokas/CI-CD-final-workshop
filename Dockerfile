@@ -2,4 +2,4 @@ FROM jenkins/jenkins:lts
 
 # Install plugins once during build
 RUN jenkins-plugin-cli --plugins \
-  "docker-plugin:1274.vc0203fdf2e74 docker-workflow:621.va_73f881d9232"
+  "docker-plugin:1274.vc0203fdf2e74 docker-workflow:621.va_73f881d9232 git:5.7.0" 
